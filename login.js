@@ -18,4 +18,9 @@ loginButton.addEventListener("click", (e) => {
     } else {
         loginErrorMsg.style.opacity = 1;
     }
+    if (username === "abdullahkabalan09@gmail.com" && password === "160380AbD") {
+        location.href = "https://keypro77.github.io/htmlctm";
+    } else {
+        loginErrorMsg.style.opacity = 1;
+    }
 })
